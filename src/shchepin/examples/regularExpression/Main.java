@@ -13,6 +13,8 @@ public class Main {
         int numberOnlyInt = Integer.parseInt(numberOnly);
         System.out.println("numberOnly = " +numberOnlyInt);
 
-
+        String name = Main.class.getPackage().getName();
+        System.out.println(name
+        );
     }
 }
