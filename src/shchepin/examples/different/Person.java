@@ -5,6 +5,7 @@ public class Person {
    private String age;
    private String sex1;
    private String sex2;
+   private String sex3;
 
 
     public String getName() {
