@@ -6,6 +6,7 @@ public class Person {
    private String sex1;
    private String sex2;
    private String sex3;
+   private String sex4;
 
 
     public String getName() {
