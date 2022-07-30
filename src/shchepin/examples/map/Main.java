@@ -15,12 +15,14 @@ public class Main {
             System.out.println(a);
         }
 
+        System.out.println();
 
         HashSet<Integer> set = new HashSet<>();
         set.add(1);
         set.add(2);
         set.add(1);
         set.add(1);
+        set.add(0);
         Iterator<Integer> iterator = set.iterator();
 
         while (iterator.hasNext()) {
